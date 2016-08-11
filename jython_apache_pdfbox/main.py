@@ -1,7 +1,7 @@
 ﻿"""
-1. install `jython` (the standalone version can't import the external JARs)
-2. get the external JARs
-3. execute the script: `jython main.py` 
+1. install `jython` (the standalone JAR can't import the external JARs)
+2. get the external JARs, see `EXTERNAL_JARS` below
+3. execute the current script: `jython main.py` 
 """
 
 EXTERNAL_JARS = \
