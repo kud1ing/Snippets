@@ -1,6 +1,8 @@
 ﻿"""
 1. install `jython` (the standalone JAR can't import the external JARs)
-2. get the external JARs, see `EXTERNAL_JARS` below
+2. download the external JARs (see `EXTERNAL_JARS` below) from
+  - https://pdfbox.apache.org/download.cgi
+  - https://commons.apache.org/proper/commons-logging/download_logging.cgi
 3. execute the current script: `jython main.py` 
 """
 
