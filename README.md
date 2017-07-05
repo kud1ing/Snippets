@@ -1,9 +1,17 @@
 # Snippets
 
+## Docker
+
+* `docker_python`: a simple example how to build and run a Docker image containing a Flask server
+
 ## PDF files
 
 * `pdf_create_apache_pdfbox_jython`: create PDF files using Apache PdfBox and Jython
 * `pdf_merge_apache_pdfbox`: merge PDF files using Apache PdfBox
+
+## Search and replace
+
+* `sed`: a search/replace example using `sed`
 
 ## SVG files
 
