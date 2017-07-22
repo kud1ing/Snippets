@@ -6,7 +6,7 @@
 
 ## Maven
 
-- `maven_download_ivy`: download a JAR including it dependencies using `ivy`
+- `maven_download_ivy`: download a JAR including its dependencies using `ivy`
 
 ## PDF files
 
@@ -16,7 +16,7 @@
 
 ## Search and replace
 
-- `sed`: a search/replace example using `sed`
+- `search_replace_sed`: a search/replace example using `sed`
 
 ## SVG files
 
