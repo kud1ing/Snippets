@@ -6,7 +6,7 @@
 
 ## Maven
 
-- `download_from_maven_central_using_ivy`: download a JAR including its dependencies using `ivy`
+- `jar_download_from_maven_central_using_ivy`: download a JAR including its dependencies using `ivy`
 
 ## PDF files
 
