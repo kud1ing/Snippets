@@ -7,6 +7,7 @@
 ## Maven
 
 - `jar_download_from_maven_central_using_ivy`: download a JAR including its dependencies using `ivy`
+- `jar_shaded`: build a fat/shaded/shadow JAR that includes all dependencies
 
 ## PDF files
 
