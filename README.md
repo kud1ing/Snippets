@@ -11,6 +11,7 @@
 
 ## PDF files
 
+- `pdf_add_using_pdftex_and_tikz`: add content to PDF files using `pdfTeX` and `TikZ`
 - `pdf_create_apache_pdfbox_jython`: create PDF files using Apache PdfBox and Jython
 - `pdf_merge_apache_pdfbox`: merge PDF files using Apache PdfBox
 - `svg_to_pdf_apache_batik`: convert SVG files to PDF using Apache Batik

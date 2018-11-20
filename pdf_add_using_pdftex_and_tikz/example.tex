@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+%
+\usepackage{tikz}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+%
+\begin{document}
+%
+% The name of the original file to include %%%%%%%%%%%%%%%%%%%%
+\newcommand{\fileName}{foo.pdf}
+%
+\begin{tikzpicture}
+% Include the first page %%%%%%%%%%%%%%%%%%%%
+\node[anchor=south west] at (0,0) {\includegraphics[page=1]{\fileName}};
+% Add the word "Foo".
+\node[anchor=west] at ( 1.0, 5.0 ) {Foo};
+\end{tikzpicture}
+%
+\newpage
+%
+\begin{tikzpicture}
+% Include the second page %%%%%%%%%%%%%%%%%%%%
+\node[anchor=south west] at (0,0) {\includegraphics[page=2]{\fileName}};
+% Add the word "Bar".
+\node[anchor=west] at ( 3.0, 4.0 ) {Bar};
+\end{tikzpicture}
+%
+\end{document}
