@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  </head>
+  <body>
+    <script type="module">
+      import init, { hello } from './pkg/hello_world.js';
+
+      async function run() {
+        await init();
+
+        hello("World");
+      }
+
+      run();
+    </script>
+  </body>
+</html>

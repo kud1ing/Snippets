@@ -16,6 +16,10 @@
 * [Merge PDF files using Apache PdfBox](pdf_merge_apache_pdfbox.md)
 * [PDF files from SVG files using Apache Batik](pdf_from_svg_apache_batik.md)
 
+## Rust
+
+* [WebAssembly with Rust: minimal example](rust_webassembly/)
+
 ## Search/replace
 
 * [Search/replace using sed](search_replace_sed.md)
