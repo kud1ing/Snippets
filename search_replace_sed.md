@@ -1,4 +1,4 @@
-# Search/replace using `sed`
+# Search/replace using sed
 
 `sed` arguments:
 * `-i`: edit in-place

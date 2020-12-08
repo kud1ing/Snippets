@@ -6,15 +6,15 @@
 
 ## Maven
 
-* `jar_download_from_maven_central_using_ivy`: download a JAR including its dependencies using `ivy`
-* `jar_shaded`: build a fat/shaded/shadow JAR that includes all dependencies
+* [Create a fat/shaded/shadow JAR that includes all dependencies](jar_shaded/README.md)
+* [Download a JAR including its dependencies using ivy](jar_download_maven_central_ivy.md)
 
 ## PDF files
 
-* `pdf_add_using_pdftex_and_tikz`: add content to PDF files using `pdfTeX` and `TikZ`
-* `pdf_create_apache_pdfbox_jython`: create PDF files using Apache PdfBox and Jython
-* `pdf_merge_apache_pdfbox`: merge PDF files using Apache PdfBox
-* `svg_to_pdf_apache_batik`: convert SVG files to PDF using Apache Batik
+* [Add content to PDF files using pdfTeX and TikZ](pdf_add_pdftex_tikz.tex)
+* [Convert SVG files to PDF using Apache Batik](svg_to_pdf_apache_batik.md)
+* [Create PDF files using Apache PdfBox and Jython](pdf_create_apache_pdfbox_jython/README.md)
+* [Merge PDF files using Apache PdfBox](pdf_merge_apache_pdfbox.md)
 
 ## Search and replace
 
@@ -22,4 +22,4 @@
 
 ## SVG files
 
-* `svg_to_pdf_apache_batik`: convert SVG files to PDF using Apache Batik
+* [Convert SVG files to PDF using Apache Batik](svg_to_pdf_apache_batik.md)
