@@ -2,7 +2,7 @@
 
 ## Docker
 
-* `docker_python`: a simple example how to build and run a Docker image containing a Flask server
+* `docker_python`: a Docker image containing a Flask server
 
 ## Maven
 
