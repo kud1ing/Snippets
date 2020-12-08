@@ -22,4 +22,4 @@
 
 ## SVG
 
-* [Convert SVG files to PDF using Apache Batik](pdf_from_svg_apache_batik.md)
+* [PDF files from SVG files using Apache Batik](pdf_from_svg_apache_batik.md)
