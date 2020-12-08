@@ -12,9 +12,9 @@
 ## PDF files
 
 * [Add content to PDF files using pdfTeX and TikZ](pdf_add_pdftex_tikz.tex)
-* [Convert SVG files to PDF using Apache Batik](svg_to_pdf_apache_batik.md)
 * [Create PDF files using Apache PdfBox and Jython](pdf_create_apache_pdfbox_jython/)
 * [Merge PDF files using Apache PdfBox](pdf_merge_apache_pdfbox.md)
+* [PDF files from SVG files using Apache Batik](pdf_from_svg_apache_batik.md)
 
 ## Search and replace
 
@@ -22,4 +22,4 @@
 
 ## SVG files
 
-* [Convert SVG files to PDF using Apache Batik](svg_to_pdf_apache_batik.md)
+* [Convert SVG files to PDF using Apache Batik](pdf_from_svg_apache_batik.md)
