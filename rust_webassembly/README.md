@@ -1,4 +1,4 @@
-# Rust WebAssembly minimal example
+# Rust WebAssembly client with wasm-pack
 
 This is a minimal example that shows:
 * how a browser can call [WebAssembly](https://webassembly.org) generated from [Rust](https://www.rust-lang.org) code

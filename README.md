@@ -19,8 +19,7 @@
 ## Rust
 
 * [HTTP server with Hyper](rust_http_server_hyper/)
-* [WebAssembly with Rust: minimal example](rust_webassembly/)
-
+* [WebAssembly client with wasm-pack](rust_webassembly/)
 
 ## Search/replace
 
