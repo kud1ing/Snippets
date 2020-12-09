@@ -13,7 +13,7 @@
 
 * [Add content to PDF files using pdfTeX and TikZ](pdf_add_pdftex_tikz.tex)
 * [Create PDF files from SVG files using Apache Batik](pdf_create_from_svg_batik.md)
-* [Create PDF files using Apache PdfBox and Jython](pdf_create_apache_pdfbox_jython/)
+* [Create PDF files using Apache PdfBox and Jython](pdf_create_apache_pdfbox_jython.py)
 * [Merge PDF files using Apache PdfBox](pdf_merge_pdfbox.md)
 
 ## Rust
