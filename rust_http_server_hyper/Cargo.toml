@@ -1,0 +1,9 @@
+[package]
+name = "rust_http_server_hyper"
+version = "0.1.0"
+authors = ["Sean McArthur <sean@seanmonstar.com>"]
+edition = "2018"
+
+[dependencies]
+hyper = "^0"
+tokio = { version = "^0", features = ["macros"] }
