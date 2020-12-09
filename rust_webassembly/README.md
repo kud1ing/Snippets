@@ -6,9 +6,8 @@ This is a minimal example that shows:
 
 <img width="710" alt="Bildschirmfoto 2019-08-07 um 10 26 55" src="https://user-images.githubusercontent.com/391975/62607213-fe0cd000-b8fd-11e9-91e8-56ba4fe93f43.png">
 
-## How to run
+## Instructions
 
-* clone or download this repository
 * make sure that [Rust is installed](https://www.rust-lang.org/tools/install)
 * make sure that [`wasm-pack` is installed](https://rustwasm.github.io/wasm-pack/installer/)
 * execute `wasm-pack build --target web`
