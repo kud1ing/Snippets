@@ -9,6 +9,10 @@
 * [Create a fat/shaded/shadow JAR that includes all dependencies](jar_shaded/)
 * [Download a JAR including its dependencies using ivy](jar_download_maven_central_ivy.md)
 
+## LaTeX
+
+* [Put PNGs on a page above each other](latex_include_png.tex)
+
 ## PDF
 
 * [Add content to PDF files using pdfTeX and TikZ](pdf_add_pdftex_tikz.tex)
