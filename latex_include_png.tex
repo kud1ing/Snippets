@@ -1,5 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 %
+% This and the "H" qualfir below avoid "Too many unprocessed floats".
+\usepackage{float}
 \usepackage{graphicx}
 \usepackage{times}
 %
@@ -8,12 +10,12 @@
 \noindent
 {\Large Some graphics}
 %
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{a.png}
 \end{figure}
 %
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{b.png}
 \end{figure}
