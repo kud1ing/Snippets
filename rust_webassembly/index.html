@@ -4,12 +4,12 @@
   </head>
   <body>
     <script type="module">
-      import init, { hello } from './pkg/hello_world.js';
+      import init, { rust_function } from './pkg/rust_webassembly.js';
 
       async function run() {
         await init();
 
-        hello("World");
+        rust_function("World");
       }
 
       run();
