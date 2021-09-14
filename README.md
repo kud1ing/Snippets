@@ -7,7 +7,7 @@
 ## JAR
 
 * [Create a fat/shaded/shadow JAR that includes all dependencies](jar_shaded/)
-* [Download a JAR including its dependencies using ivy](jar_download_maven_central_ivy.md)
+* [Download a JAR including its dependencies using `ivy`](jar_download_maven_central_ivy.md)
 
 ## LaTeX
 
@@ -23,11 +23,11 @@
 ## Rust
 
 * [HTTP server with Hyper](rust_http_server_hyper/)
-* [WebAssembly client with wasm-pack](rust_webassembly/)
+* [WebAssembly client with `wasm-pack`](rust_webassembly/)
 
 ## Search/replace
 
-* [Search/replace using sed](search_replace_sed.md)
+* [Search/replace using `sed`](search_replace_sed.md)
 
 ## SVG
 
