@@ -11,6 +11,6 @@ This is a minimal example that shows:
 * make sure that [Rust is installed](https://www.rust-lang.org/tools/install)
 * make sure that [`wasm-pack` is installed](https://rustwasm.github.io/wasm-pack/installer/)
 * execute `wasm-pack build --target web`
-* copy the content of `javascript.js` into `pkg/rust_webassembly.js
+* copy the content of `javascript.js` into `pkg/rust_webassembly.js`
 * make sure that [local file restrictions are disabled](https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/) in your web browser
 * open `index.html` in that web browser
