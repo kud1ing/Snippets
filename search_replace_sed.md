@@ -7,5 +7,5 @@
 ## Examples
 
 * Replacing `FOO` with `BAR` while ignoring the VCS sub-directory:
-  *     sed -i -b "s/FOO/BAR/g" `grep -l -R --exclude-dir='*/.svn' "FOO" .`
+  *     sed -i -b "s/FOO/BAR/g" `grep -l -R --exclude-dir='*/.git' "FOO" .`
     
