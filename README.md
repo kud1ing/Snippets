@@ -35,4 +35,4 @@
 
 ## TypeScript
 
-* [TypeScript modules](typescript_modules/)
+* [TypeScript modules with webpack](typescript_modules/)
