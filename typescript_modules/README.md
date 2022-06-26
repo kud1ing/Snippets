@@ -2,6 +2,6 @@
 
 * make sure that [TypeScript](https://www.typescriptlang.org) is installed
 * make sure that [webpack](https://webpack.js.org) is installed
-* compile the TypeScript code to JavaScript with `ts`
+* transpile the TypeScript code to JavaScript code with `tsc`
 * bundle the JavaScript files with `npx webpack --config webpack.config.js`
 * open `index.html`
