@@ -1,4 +1,4 @@
-# TypeScript modules with webpack
+# TypeScript modules with `webpack`
 
 * make sure that [TypeScript](https://www.typescriptlang.org) is installed
 * make sure that [webpack](https://webpack.js.org) is installed
