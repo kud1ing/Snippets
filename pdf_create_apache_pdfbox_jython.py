@@ -1,4 +1,6 @@
-﻿"""
+"""
+Create PDF files using Apache PdfBox and Jython
+
 1. Install `jython` (the standalone JAR can't import the external JARs)
 2. Download the external JARs (see `EXTERNAL_JARS` below) from
   - https://pdfbox.apache.org/download.cgi
