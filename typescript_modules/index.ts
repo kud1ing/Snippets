@@ -1,7 +1,7 @@
 import { a } from "./A";
 import { b } from "./B";
 
-console.log("im Modul");
+console.log("in `index.ts`");
 
 (<any>window).a = a;
 (<any>window).b = b;
