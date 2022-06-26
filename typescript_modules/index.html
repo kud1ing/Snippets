@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="module" src="./dist/result.js">
+        console.log('beim Laden des Moduls');
+    </script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(event) {
+            console.log('das Modul ist geladen');
+            window.a();
+            window.b();
+        });
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        console.log('im Body');
+    </script>
+</body>
+</html>

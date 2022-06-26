@@ -32,3 +32,7 @@
 ## SVG
 
 * [Create PDF files from SVG files using Apache Batik](pdf_create_from_svg_batik.md)
+
+## TypeScript
+
+* [TypeScript modules](typescript_modules/)
