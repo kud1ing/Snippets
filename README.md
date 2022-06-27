@@ -1,5 +1,9 @@
 # Snippets
 
+## Dart
+
+* [Use Dart functions from JavaScript](dart_from_js/)
+
 ## Docker
 
 * [Python Flask HTTP-Server](docker_python_flask/)
@@ -35,4 +39,4 @@
 
 ## TypeScript
 
-* [TypeScript modules with `webpack`](typescript_modules/)
+* [Use TypeScript functions from JavaScript](typescript_from_js/)
