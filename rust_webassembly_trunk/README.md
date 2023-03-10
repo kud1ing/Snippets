@@ -1,4 +1,4 @@
-# Rust WebAssembly client with Trunk
+# Rust WebAssembly client using Trunk with Hot Reloading
 
 ## Instructions
 

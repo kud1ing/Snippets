@@ -29,7 +29,7 @@
 * [HTTP server with Hyper](rust_http_server_hyper/)
 * WebAssembly:
   * [Drawing on the canvas non-blurrily](rust_webassembly_canvas/)
-  * [Minimal example using Trunk](rust_webassembly_trunk/)
+  * [Minimal example using Trunk with Hot Reloading](rust_webassembly_trunk/)
   * [Minimal example using `wasm-pack`](rust_webassembly_wasmpack/)
 
 ## Search/replace
