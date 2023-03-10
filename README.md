@@ -27,8 +27,10 @@
 ## Rust
 
 * [HTTP server with Hyper](rust_http_server_hyper/)
-* [WebAssembly client with `wasm-pack`](rust_webassembly_wasmpack/)
-* [WebAssembly client with Trunk](rust_webassembly_trunk/)
+* WebAssembly:
+  * [Drawing on the canvas non-blurrily](rust_webassembly_canvas/)
+  * [Minimal example using Trunk](rust_webassembly_trunk/)
+  * [Minimal example using `wasm-pack`](rust_webassembly_wasmpack/)
 
 ## Search/replace
 

@@ -7,9 +7,10 @@ edition = "2021"
 console_error_panic_hook = "0.1"
 wasm-bindgen = "0.2"
 web-sys = { version = "0.3", features = [
+    "CanvasRenderingContext2d",
+    "CssStyleDeclaration",
     "Document",
-    "HtmlElement",
-    "Node",
-    "Text",
+    "Element",
+    "HtmlCanvasElement",
     "Window",
 ] }
