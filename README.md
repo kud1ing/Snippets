@@ -28,6 +28,7 @@
 
 * [HTTP server with Hyper](rust_http_server_hyper/)
 * [WebAssembly client with `wasm-pack`](rust_webassembly_wasmpack/)
+* [WebAssembly client with Trunk](rust_webassembly_trunk/)
 
 ## Search/replace
 
