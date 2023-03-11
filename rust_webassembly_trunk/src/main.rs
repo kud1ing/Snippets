@@ -1,9 +1,10 @@
 #![recursion_limit = "1024"]
 
-use console_error_panic_hook::set_once as set_panic_hook;
 use web_sys::window;
 
 fn main() {
+    console_error_panic_hook::set_once();
+
     let document = window()
         .and_then(|win| win.document())
         .expect("Could not get document");

@@ -4,6 +4,8 @@ use wasm_bindgen::JsCast;
 use web_sys::window;
 
 fn main() {
+    console_error_panic_hook::set_once();
+
     let window = window().expect("Could not get the window");
     let document = window.document().expect("Could not get the document");
 
