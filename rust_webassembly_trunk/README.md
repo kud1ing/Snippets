@@ -8,4 +8,5 @@
 
 ## Backlog
 
-* [ ] call `rust_function()` from JavaScript somehow
+* [ ] call `rust_function()` from JavaScript somehow. This seems to be blocked by
+  https://github.com/thedodd/trunk/issues/298

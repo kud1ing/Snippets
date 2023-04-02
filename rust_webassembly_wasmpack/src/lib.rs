@@ -10,9 +10,9 @@ extern "C" {
 /// A Rust function called from JavaScript.
 #[wasm_bindgen]
 pub fn rust_function(name: &str) {
-    alert(&format!("`rust_function`: Hello, {}! (via `alert()`)", name));
+    alert(&format!("`rust_function()`: Hello, {}! (via `alert()`)", name));
     javascript_function(JsValue::from_str(&format!(
-        "`rust_function`: Hello, {}! (via `javascript_function()`)",
+        "`rust_function()`: Hello, {}! (via `javascript_function()`)",
         name
     )));
 }

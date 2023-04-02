@@ -14,13 +14,9 @@ extern "C" {
 #[wasm_bindgen]
 pub fn rust_function(name: &str) {
     alert(&format!(
-        "Hello from Rust's `rust_function()` via `alert()`: {}!`)",
+        "This is Rust's `rust_function()`: {}!`)",
         name
     ));
-    javascript_function(JsValue::from_str(&format!(
-        "Hello from Rust's `rust_function()` via `javascript_function()`: {}!`)",
-        name
-    )));
 }
 
 fn main() {
@@ -41,9 +37,9 @@ fn main() {
 
     // Call JavaScript functions.
     {
-        alert("Hello from Rust's `main()` via `alert()`");
+        alert("This is Rust's `main()` calling `alert()`");
         javascript_function(JsValue::from_str(
-            "Hello from Rust's `main()` via `javascript_function()`",
+            "called from Rust's `main()`",
         ));
     }
 }
