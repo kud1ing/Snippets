@@ -1,0 +1,8 @@
+[package]
+name = "rust_http_server_hyper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "^0", features = ["full"] }
+tokio = { version = "^1", features = ["full"] }
