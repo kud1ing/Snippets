@@ -9,9 +9,19 @@ RUN cargo build --release
 # ======================================================================================================================
 FROM debian:bookworm-slim
 
-COPY --from=builder target/release/rust_http_server_hyper /
-USER root
+ARG APP_USER=appuser
+ARG APP_GROUP=appuser
 
+# Add an unprivileged user and group.
+RUN groupadd ${APP_USER} && useradd -g ${APP_GROUP} ${APP_USER}
+
+# Copy the artefacts from the first stage.
+COPY --chown=${APP_USER}:${APP_GROUP} --from=builder target/release/rust_http_server_hyper /
+
+# ----------------------------------------------------------------------------------------------------------------------
+# Run the server.
+
+USER ${APP_USER}
 ENV RUST_LOG=info
 ENV RUST_BACKTRACE=full
 
