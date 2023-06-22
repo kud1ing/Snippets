@@ -6,7 +6,6 @@
 
 ## Docker
 
-* [Python Flask HTTP Server](docker_python_flask/)
 * [Rust Hyper HTTP Server](docker_rust_http_server_hyper/)
 
 ## JAR
