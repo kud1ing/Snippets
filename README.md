@@ -32,10 +32,6 @@
   * [Minimal example using Trunk with Hot Reloading](rust_webassembly_trunk/)
   * [Minimal example using `wasm-pack`](rust_webassembly_wasmpack/)
 
-## Search/replace
-
-* [Search/replace using `sed`](search_replace_sed.md)
-
 ## SVG
 
 * [Create PDF files from SVG files using Apache Batik](pdf_create_from_svg_batik.md)
