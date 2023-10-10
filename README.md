@@ -13,6 +13,12 @@
 * [Create a fat/shaded/shadow JAR that includes all dependencies](jar_shaded/)
 * [Download a JAR including its dependencies using `ivy`](jar_download_maven_central_ivy.md)
 
+## JavaScript
+
+* [JavaScript Modules](js_modules/)
+* [Use Dart functions from JavaScript](dart_from_js/)
+* [Use TypeScript functions from JavaScript](typescript_from_js/)
+
 ## LaTeX
 
 * [Put PNGs on a page above each other](latex_include_png.tex)
