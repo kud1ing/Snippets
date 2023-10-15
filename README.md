@@ -34,6 +34,7 @@
 
 * [HTTP server with Hyper](docker_rust_http_server_hyper/)
 * [Search with Tantivy](rust_search_tantivy/)
+* [Sending and handling signals](rust_process_signal/)
 * WebAssembly:
   * [Drawing on the canvas non-blurrily](rust_webassembly_canvas/)
   * [Minimal example using Trunk with Hot Reloading](rust_webassembly_trunk/)

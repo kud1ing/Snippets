@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "receiver",
+    "sender"
+]
+resolver="2"
+
+
+[workspace.dependencies]
