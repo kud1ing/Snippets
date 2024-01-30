@@ -15,8 +15,8 @@
 
 ## JavaScript
 
-* [JavaScript Modules](js_modules/)
 * [Use Dart functions from JavaScript](dart_from_js/)
+* [Use JavaScript Modules](js_modules/)
 * [Use TypeScript functions from JavaScript](typescript_from_js/)
 
 ## LaTeX
