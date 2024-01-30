@@ -6,7 +6,7 @@
 
 ## Docker
 
-* [Rust Hyper HTTP Server](docker_rust_http_server_hyper/)
+* [A Rust Hyper HTTP Server](docker_rust_http_server_hyper/)
 
 ## JAR
 
@@ -32,7 +32,7 @@
 
 ## Rust
 
-* [HTTP server with Hyper](docker_rust_http_server_hyper/)
+* [Provide an HTTP server with Hyper](docker_rust_http_server_hyper/)
 * [Search with Tantivy](rust_search_tantivy/)
 * [Sending and handling signals](rust_process_signal/)
 * WebAssembly:
